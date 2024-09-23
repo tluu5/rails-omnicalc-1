@@ -48,3 +48,4 @@ class ZebraController < ApplicationController
     @random_num = random_float.round(15)
     render({ :template => "omnicalc-1_templates/random_results"})
   end
+end
