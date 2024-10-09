@@ -45,7 +45,7 @@ class ZebraController < ApplicationController
     @min = params.fetch("min_num").to_f
     @max = params.fetch("max_num").to_f
     random_float = rand(@min..@max)
-    @random_num = random_float.round(15)
+    @random_num = random_float.round(15).  
     render({ :template => "omnicalc-1_templates/random_results"})
   end
 end
