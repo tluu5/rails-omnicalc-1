@@ -49,3 +49,4 @@ class ZebraController < ApplicationController
     render({ :template => "omnicalc-1_templates/random_results"})
   end
 end
+
